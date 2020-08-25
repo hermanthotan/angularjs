@@ -1,0 +1,26 @@
+.name-container {
+
+    padding: 10px;
+
+    &__item {
+        margin: 5px;
+        border: 1px solid #eee;
+        text-align: center;
+
+        &--name {
+
+            color: teal;
+            cursor: pointer;
+        }
+
+        &--age {
+
+            color: blue;
+        }
+    }
+}
+
+.important {
+
+    font-style: italic;
+}
